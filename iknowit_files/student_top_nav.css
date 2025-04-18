@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+#searchIconImg{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.srchTopBox{margin-left: 4px;}
+.searchIconBlock{margin-left: 10px;}
+.topNavTxtRt{
+	text-align: right;
+}
+#swtDistrict{
+	background-color: #00a6ce;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 0.975rem;
+	font-weight: bold;
+	padding: 4px 8px;
+	text-align: center;
+	width: 100px;
+	height: 42px;
+	cursor: pointer;
+	margin: 0px;
+}
+#gradelevelNavTop {
+	width: 1024px;
+	margin: 14px auto 0px;
+	max-width: 1024px;
+}
+#gradePageBoxFull {
+	margin-bottom: 6px;
+	max-width: 1024px;
+	vertical-align: middle;
+	display: inline-flex;
+	max-height: 70px;
+	width: 1024px;
+}
+#logoGradeLevel {
+	/*display: inline-block;
+	width: 160px;*/
+}
+#searchBlock{
+	display: none;
+	margin-bottom: 12px;
+}
+#searchBlockP{
+	display: none;
+	/*width: 67%;*/
+
+	margin-bottom: 12px;
+}
+#searchTopBlock{
+	padding-right: 8px;
+	width: 100%;
+}
+.srchTopBox{ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#searchGradeLevel {
+	display: inline-block;
+	width: 341px;
+}
+#nameGradeLevel {
+	display: inline-flex;
+	width: 414px;
+	justify-content: flex-end;
+	max-height: inherit;
+	margin-right: 12px;
+}
+#nameGradeLevelMixed{
+	display: inline-flex;
+	width: 614px;
+	justify-content: flex-end;
+	max-height: inherit;
+	margin-right: 9px;
+}
+#nameGradeMx{
+	text-align: right;
+	margin-right: 8px;
+}
+#nameGradeMxTxt{
+		color: #00a6ce;
+}
+#nameGradeLevelTxt {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+#loginGradeLevel {
+	display: inline-flex;
+	width: 100px;
+}
+#loginGradeLevelMixed{
+	display: inline-flex;
+	/*width: 343px;*/
+	align-items: center;
+	justify-content: flex-end;
+}
+#loginGradeLevelBtnBlockMixed{
+	display: flex;
+ max-width: 260px;
+ align-items: right;
+}
+#loginGradeLevelPadre {
+	display: inline-flex;
+	width: 100px;
+}
+#loginGradeLevelBtnBlock {
+	display: flex;
+	max-width: 100px;
+	align-items: center;
+}
+#parentMode{
+	display: flex;
+	max-width: 150px;
+	align-items: center;
+}
+#parentModeBtn{
+	background-color: #00a6ce;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 1.2em;
+	height: 42px;
+	font-weight: bold;
+	width: 150px;
+	margin: 0px;
+	cursor: pointer;
+}
+#parentModeBlock{
+	display: none;
+ width: 150px;
+	margin-left: 8px;
+}
+#profileIcon{
+	margin-right: 8px;
+}
+#preorderBtn{
+	background-color: #fff;
+	border: 3px solid #00a6ce;
+	border-radius: 8px;
+	color: #00a6ce;
+	height: 42px;
+	font-size: 1.375em;
+	font-style: italic;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 8px;
+}
+#studentModeBtn, #familyChooseBtn{
+	background-color: #00a6ce;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 1.375em;
+	height: 42px;
+	font-weight: bold;
+	width: 160px;
+	margin: 0px;
+	cursor: pointer;
+}
+#studentModeBlock{
+	margin-left: 8px;
+}
+#studentMode{
+	display: flex;
+	max-width: 160px;
+	align-items: center;
+}
+#topPlaceHolder{
+	width: 200px;
+	max-width: 200px;	
+}
+.navRight{
+	align-items: center;
+	display: flex;
+	justify-content: end;
+}
+.navRightP{
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+}
+.navName{
+	margin-right: 8px;
+}
+#pageTopNav{
+	margin-bottom: 8px;
+}
+.txt375{
+	font-size: 1.375rem;
+}
+#navMath,#navEla{
+	background-color: #00a6ce;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.375rem;
+	padding: 8px 15px;	
+	height: 42px;
+	margin: 0px;
+}
+.navLnkbox{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.navLnkBtnTxt{
+	width: inherit;
+	min-height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#navEla{margin-right: 4px; background-color: #c0c0c0;}
+#elaBox{ display: none; }
+.navBG > a{ color: #fff;}
+.navBG{
+/* 6-22-22
+	background-color: #00A6CE;
+	display: inline-block;
+	vertical-align: top;
+	height: 35px;
+	max-height: 35px;*/
+	background-color: #00A6CE;
+	color: #fff;
+	padding: 5px 0px;
+text-align: center;
+font-weight: bold;
+}
+.navChcBG{
+	background-color: #00A6CE;
+	color: #fff;
+	padding: 5px 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.navChcBG:hover{
+	background-color: #004d74;
+}
+.navChcBG > a > div:hover{
+	color: #F6B221;
+}
+.navBGela > a{
+	
+	color: #fff;
+}
+ .navBGela{
+		background-color: #00A6CE;
+	padding: 5px 0px;
+ text-align: center;
+	font-weight: bold;
+}
+.navOn{
+	color: #F6B221;
+	font-weight: bold;
+}
+.navElaOn{
+	color: #dc6026;
+	font-weight: bold;
+}
+.navOff, .navOff>a{
+	color: #fff;
+	font-weight: bold;
+}
+.navElaOff{
+	color: #ffdd77;
+	font-weight: bold;
+}
+.navOnBG > a, .navOnBG{
+	background-color: #004d74;
+	color: #F6B221;
+}
+
+.grLnk{
+	display: flex;
+	justify-content: center;
+	width: 35px;
+	color: #fff;
+}
+.grLnk:hover{
+	background-color: #004d74;
+	color: #F6B221 !important;
+}
+
+.navELABG > a, .navELABG{
+	padding: 5px 0px;
+	text-align: center;
+	background-color: #00a6ce;
+	font-weight: bold;
+	color: #fff;/*#ffdd77*/
+}
+.navOnElaBG > a, .navOnElaBG{
+	background-color: #004d74;
+	color: #F6B221;
+}
+
+.gradeBtn,.gradeElaBtn{
+	align-items: center;
+	display: inline-flex;
+	justify-content: center;
+	width: 35px;
+	max-width: 35px;
+	margin-right: 4px;
+}
+.navFtLink{width: inherit;}
+.gradeBtn:hover,.gradeBtn:active{ background-color: #004d74; color: #F6B221 !important;}
+.navBG >a :hover{ color: #F6B221; }
+.navBG:hover{background-color: #004d74;}
+.gradeElaBtn > a:hover, .gradeElaBtn:hover{ background-color: #004d74; color: #F6B221 !important;}
+#userBtn{
+	background-color: #00a6ce;
+ padding: 5px;
+	width: 42px;
+ height: 42px;
+	margin: 0px;
+	border-radius: 8px;
+}
+#navMenuDrop{ 
+	display: none;
+	position: absolute;
+	right: 0px;
+	z-index: 1000;
+
+}
+#navHolder{
+	background-color: #fff;
+	border: 2px solid #00a6ce;
+/*	width: 140px;*/
+width: 206px;
+	border-radius: 8px;
+	position: relative;
+	top: 5px;
+}
+#navMenuArea{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+#navMenu{
+	padding: 15px;
+}
+#navMenu >ul >li{list-style-type: none;}
+.navMenuLnk{
+	color: #00a6ce;
+	text-decoration: none;
+}
+.navMenuLnk:hover,.navMenuLnk:visited{
+	color: #00a6ce;
+}
+#navMenu>p{margin-bottom: 5px;}
+#userIconPBlock{ position: relative; margin-left: 8px; }
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.gradeBtn{	
+	width: 38px;
+	max-width: 38px;
+}
+}

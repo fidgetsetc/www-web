@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://www.iknowit.com/ -->
+<html lang="en" class="" data-whatinput="mouse" data-whatintent="mouse"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>I Know It - Online Elementary Math &amp; ELA Practice &amp; Learning</title>
+<meta name="description" content="Interactive math and ELA practice site for students in Kindergarten through 5th grades.  Review addition, subtraction, multiplication, division, fractions, telling time, counting money, geometry, spelling, grammar, phonics, reading comprehension, and much more!">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="9yaLeVWubtz0hvxaYamo1DOnkJbCNpU8Gwa9ykgVlh8"><!--<link href="/css/v31/foundation.min.css" rel="stylesheet" type="text/css">-->
+<link href="./iknowit_files/foundation.min.css" rel="stylesheet" type="text/css">
+<link href="./iknowit_files/foundation-icons.css" rel="stylesheet" type="text/css">
+<link href="./iknowit_files/iknowit.css" rel="stylesheet" type="text/css">
+<link href="./iknowit_files/footer.css" rel="stylesheet" type="text/css">
+<link href="./iknowit_files/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./iknowit_files/tooltipster.bundle.min.css">
+<link rel="stylesheet" type="text/css" href="./iknowit_files/tooltipster-sideTip-borderless.min.css">
+<link rel="stylesheet" type="text/css" href="./iknowit_files/code_tips.css">
+
+<link href="./iknowit_files/student_top_nav.css" rel="stylesheet" type="text/css">
+<link href="./iknowit_files/layout_edge.css" rel="stylesheet" type="text/css"><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./iknowit_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-82330769-1');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="./iknowit_files/js(1)"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XX5GGFSVTE');
+</script><script>const mobileDevice = "no";</script><style>
+.grid-container{ padding: 0px;}
+.vidPlyr1{width: 230px;}
+.video-js .vjs-big-play-button{
+	border-radius: 48px;
+    height: 75px;
+    width: 75px;
+		border: 4px solid #fff;
+		background-color: #a1dcec;
+		font-size: 5em;
+		left: 66%;
+}
+.video-js .vjs-big-play-button  .video-js .vjs-modal-dialog,  .vjs-modal-dialog .vjs-modal-dialog-content{
+	position: relative;
+	top: -5px;	
+}
+/*.vjs-icon-placeholder:before, .vjs-button>.vjs-icon-placeholder:before,*/
+.vjs-big-play-centered .vjs-big-play-button{
+	top: 71%;
+	left: 63%;
+}
+#elaFreeBlock{
+	border: 4px solid rgb(220,96,38);
+	padding: 8px;
+	font-weight: bold;
+	color: rgb(220,96,38);
+	font-size: 1.75em;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#gradeCatsteacherDash, #gradeElaCatsteacherDash{margin-bottom: 20px; }
+.vjs-control-bar{display: none !important; }
+</style>
+
+<meta class="foundation-mq" name="foundation-mq" content=""></head>
+
+<body>
+	<noscript><div style="background-color: rgb(255 0 0 / 30%);font-size: 20px;padding: 15px;text-align: center;">Javascript is disabled in your browser and is required to interact with our web site. Please turn it on and refresh the page.</div></noscript>
+<script src="./iknowit_files/jquery-3.6.0.min.js.download"></script>
+<script src="./iknowit_files/jquery-migrate-3.4.0.min.js.download"></script>
+
+<div class="grid-container">
+	<div id="pageTopNav" class="grid-x align-middle">
+ 	<div id="logoGradeLevel" class="cell medium-6">
+	<a href="https://www.iknowit.com/index.html"><img width="160" height="70" title="iknowit Home" alt="iknowit logo image" src="./iknowit_files/iknowit-plogo-160px.png"></a>		
+ <span class="searchIconBlock"><img src="./iknowit_files/search-icon-3.png" alt="Search I Know It" id="searchIconImg" title="Search Lessons"></span>
+ 	</div>
+ 
+	<div class="cell medium-6 navRight">	
+     <div id="loginGradeLevelMixed">
+   <button type="button" id="signup" title="Free Trial" class="loginBtnTxt" style="margin-right: 8px;" onclick="location.assign(&#39;/sign-up.html&#39;); return false;" aria-label="Free Trial">Free Trial</button>
+  <button type="button" id="preorderBtn" title="Order" style="margin-right: 8px;" onclick="location.assign(&#39;/order.html&#39;); return false;" aria-label="Order">Order</button>
+   <button type="button" id="loginuser" title="Login" class="loginBtnTxt" onclick="logmein(); return false;" aria-label="Login">Login</button>
+   </div>
+     
+  </div>
+ </div>
+ <div id="topNav" class="grid-x">
+	<!---->
+ <div class="cell small-2 medium-shrink"> 	
+  <a href="https://www.iknowit.com/kindergarten.html" class="button" id="navMath" title="Trigger Math K-5">Math</a>
+  <a href="https://www.iknowit.com/kindergarten-ela.html" class="button" id="navEla" title="Trigger ELA K-5">ELA</a>
+ </div>
+<div class="cell small-4 medium-shrink"><div id="mathBox"><a href="https://www.iknowit.com/kindergarten.html" title="Kindergarten Math"><div class="navBG gradeBtn txt32"><div class="">K</div></div></a><a href="https://www.iknowit.com/first-grade.html" title="First Grade Math"><div class="navBG gradeBtn txt32"><div class="">1</div></div></a><a href="https://www.iknowit.com/second-grade.html" title="Second Grade Math"><div class="navBG gradeBtn txt32"><div class="">2</div></div></a><a href="https://www.iknowit.com/third-grade.html" title="Third Grade Math"><div class="navBG gradeBtn txt32"><div class="">3</div></div></a><a href="https://www.iknowit.com/fourth-grade.html" title="Fourth Grade Math"><div class="navBG gradeBtn txt32"><div class="">4</div></div></a><a href="https://www.iknowit.com/fifth-grade.html" title="Fifth Grade Math"><div class="navBG gradeBtn txt32"><div class="">5</div></div></a></div><div id="elaBox"><a href="https://www.iknowit.com/kindergarten-ela.html" title="Kindergarten ELA"><div class="navELABG gradeElaBtn txt32"><div class="">K</div></div></a><a href="https://www.iknowit.com/first-grade-ela.html" title="First Grade ELA"><div class="navELABG gradeElaBtn txt32"><div class="">1</div></div></a><a href="https://www.iknowit.com/second-grade-ela.html" title="Second Grade ELA"><div class="navELABG gradeElaBtn txt32"><div class="">2</div></div></a><a href="https://www.iknowit.com/third-grade-ela.html" title="Third Grade ELA"><div class="navELABG gradeElaBtn txt32"><div class="">3</div></div></a><a href="https://www.iknowit.com/fourth-grade-ela.html" title="Fourth Grade ELA"><div class="navELABG gradeElaBtn txt32"><div class="">4</div></div></a><a href="https://www.iknowit.com/fifth-grade-ela.html" title="Fifth Grade ELA"><div class="navELABG gradeElaBtn txt32"><div class="">5</div></div></a></div></div><div class="navBG topBtnT cell auto"><a href="https://www.iknowit.com/index.html" title="Homepage" class="navLnkbox"><div class="txt375 navLnkBtnTxt navOff  ">Home</div></a></div><div class="navBG topBtnT cell auto"><a href="https://www.iknowit.com/about-us.html" title="About I Know It" class="navLnkbox"><div class="txt375 navLnkBtnTxt navOff  ">About Us</div></a></div><div class="navBG topBtnT cell auto"><a href="https://www.iknowit.com/questions-and-answers.html" title="Questions and Answers" class="navLnkbox"><div class="txt375 navLnkBtnTxt navOff  ">Q &amp; A</div></a></div><div class="navBG topBtnE cell auto"><a href="https://www.iknowit.com/order.html" title="I Know It Prices" class="navLnkbox"><div class="txt375 navLnkBtnTxt navOff  ">Pricing</div></a></div></div>
+   <div class="grid-x">
+  <div id="searchBlock" class="cell medium-12">
+			<div id="searchTopBlock"><form name="searchForm" id="searchForm" method="post" action="https://www.iknowit.com/search-results.html"><div id="searchBox"><input type="text" name="iki_search" id="iki_search" placeholder="Search Lessons"></div><div id="searchBtnBox"><a href="https://www.iknowit.com/#" id="" class="ikiSearch"><img src="./iknowit_files/search-icon.png" alt="Search I Know It"></a></div></form></div>		</div> </div>
+  
+	 <script>
+	//$('#navMath').on('click touch', function(){
+		function navMathClick(){
+		$('#mathBox').show();
+		$('#mathBox').css('display', 'flex');		
+		$('#elaBox').hide();
+		$('#navEla').css({'background-color': '#c0c0c0','color': '#ffffff'});
+		$('#navMath').css('background-color', '#00a6ce');
+		}
+	//});
+	
+	//$('#navEla').on('click touch', function(){
+		function navElaClick(){
+		$('#mathBox').hide();
+		$('#elaBox').show();
+		$('#elaBox').css('display', 'flex');
+		$('#navMath').css('background-color', '#c0c0c0');
+		$('#navEla').css({'background-color': '#00a6ce','color': '#fff'});
+		}
+	//});
+	</script> 	<script>
+	$('#searchIconImg').on('click touch', function(){		
+			if($('#searchBlock, #searchBlockP').is(':visible')){
+				//$('#searchBlock').slideUp(300, function(){		});
+				$('#searchBlock, #searchBlockP').toggle('clip','linear',1500);				
+						//$('#searchBlock').css({'margin-top': '0px','margin-bottom': '0px'});
+					$('#iki_search').blur();
+				
+				//$(this).css({'display':'none','margin-top': '0px','margin-bottom': '0px'});
+					//$('#iki_search').blur();
+			
+				}
+				else{
+					//$('#searchBlock').animate({height: 'show'},1000,'easeInQuart',function(){});
+					$('#searchBlock, #searchBlockP').toggle('clip','linear',1500)
+								$('#searchBlock, #searchBlockP').css({'display':'flex'});		
+								$('#iki_search').focus();
+					
+					/*$('#searchBlock').slideDown(300, function(){
+						$(this).css({'margin-top': '15px','margin-bottom': '15px'});		
+					$(this).css({'display':'flex'});
+				$('#iki_search').focus();
+				});*/
+					}
+			
+	
+		
+		});
+$('#userBtn').on('click touch', function(){
+	if($('#navMenuDrop').is(':visible')){
+		$('#navMenuDrop').slideUp(150);
+	}
+	else{
+		$('#navMenuDrop').slideDown(150);
+	}
+});
+	</script>	
+	<div id="practiceHomePg" class="grid-x">
+		<div class="cell small-12"><a href="https://www.iknowit.com/sign-up.html" title="Start practicing with a free 30 day trial"><img src="./iknowit_files/iknowit-home-signup-rib.png" alt="Start Practicing with a free 30 day trial"></a></div>
+	</div>
+	 <div class="grid-x">
+  	 	<div class="cell small-12"><a data-toggle="modalVideo" title="Engage your elementary students with interactive math practice" aria-controls="modalVideo" aria-haspopup="dialog" tabindex="0"><img src="./iknowit_files/iknowit-home-banner-easter.png" alt="Engage your elementary students with interactive Math and ELA practice."></a></div>
+	 </div>	
+<div id="gradeCatsteacherDashTitle" class="grid-x align-middle ">
+		<div class="cell small-12">Math Lessons</div>
+	</div>
+ <div id="gradeCatsteacherDash" class="grid-x ">
+  <div class="cell medium-2 small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/kindergarten.html" title="Kindergarten Math"><img src="./iknowit_files/iknowit-homepage-k-colored.png" alt="Kindergarten Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/first-grade.html" title="First Grade Math"><img src="./iknowit_files/iknowit-homepage-1-colored.png" alt="First Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/second-grade.html" title="Second Grade Math"><img src="./iknowit_files/iknowit-homepage-2-colored.png" alt="Second Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/third-grade.html" title="Third Grade Math"><img src="./iknowit_files/iknowit-homepage-3-colored.png" alt="Third Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/fourth-grade.html" title="Fourth Grade Math"><img src="./iknowit_files/iknowit-homepage-4-colored.png" alt="Fourth Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/fifth-grade.html" title="Fifth Grade Math"><img src="./iknowit_files/iknowit-homepage-5-colored.png" alt="Fifth Grade Lessons"></a></div> </div>
+ <div id="gradeElaCatsteacherDashTitle" class="grid-x align-middle ">
+		<div class="cell small-12">ELA Lessons</div>
+	</div>
+ <div id="gradeElaCatsteacherDash" class="grid-x ">
+  <div class="cell medium-2 small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/kindergarten-ela.html" title="Kindergarten ELA"><img src="./iknowit_files/iknowit-homepage-k-colored.png" alt="Kindergarten Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/first-grade-ela.html" title="First Grade ELA"><img src="./iknowit_files/iknowit-homepage-1-colored.png" alt="First Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/second-grade-ela.html" title="Second Grade ELA"><img src="./iknowit_files/iknowit-homepage-2-colored.png" alt="Second Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/third-grade-ela.html" title="Third Grade ELA"><img src="./iknowit_files/iknowit-homepage-3-colored.png" alt="Third Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/fourth-grade-ela.html" title="Fourth Grade ELA"><img src="./iknowit_files/iknowit-homepage-4-colored.png" alt="Fourth Grade Lessons"></a></div><div class="cell medium-auto small-4 txtcntr dashGrBtn"><a href="https://www.iknowit.com/fifth-grade-ela.html" title="Fifth Grade ELA"><img src="./iknowit_files/iknowit-homepage-5-colored.png" alt="Fifth Grade Lessons"></a></div> </div>
+ 
+	<div class="grid-x">
+		<div class="cell small-12"><img src="./iknowit_files/iknowit-home-engaging-lessons.png" alt="User friendly interface allows students to start assignments effortlessly." title="User friendly interface allows students to start assignments effortlessly."></div>
+	</div>
+	<div class="grid-x">
+		<div class="cell small-12"><img src="./iknowit_files/iknowit-home-classroom-performance.png" alt="Creating classroom rosters, assigning lessons and tracking student growth has neve been easier." title="Creating classroom rosters, assigning lessons and tracking student growth has never been easier."></div>
+	</div>
+	<div class="grid-x">
+		<div class="cell small-12"><img src="./iknowit_files/iknowit-home-friendly-student-homepage.png" alt="Custom student homepage helps your eager learners get started quickly." title="Custom student homepage helps your eager learners get started quickly."></div>
+	</div>
+	<div class="grid-x">
+		<div class="cell small-8"><img src="./iknowit_files/iknowit-home-awesome-animations.png" alt="Engaging animations will keep motivating students throughtout each lesson." title="Engaging animations will keep motivating students throughtout each lesson."></div><!-- <div class="responsive-embed widescreen"></div>		  -->
+		<div class="cell small-3">
+		<!--<div class=""> responsive-embed widescreen </div>-->
+          <video controls="" playsinline="" title="Gus Animation" poster="/images/promo/Gus-still.png"><source src="images/home/gus-horn-blow.mp4" type="video/mp4"></video>
+          			
+			
+		</div>
+	</div>
+	<div class="grid-x">
+		<div class="cell small-12"><img src="./iknowit_files/iknowit-home-accolades.png" alt="We are honored receiptients of several educational awards." title="We are honored receiptients of several educational awards."></div>
+	</div>
+	<div class="grid-x">
+		<div class="cell small-12"><img src="./iknowit_files/iknowit-home-complimentary-services.png" alt="Complimentary Services: Free teacher training and Free data entry." title="Complimentary Services: Free teacher training and Free data entry."></div>
+	</div>	
+	<div id="homeFooterTop" class="grid-x">
+		<div class="cell small-12">
+			<div class="txtcntr footerTopText btxt">Get started today with a free trial!</div>
+			<div class="txtcntr footerbottomText">Unlimited access to customized lessons tailored to help children learn.</div>
+			<div id="homeSUbtnBox" class="txtcntr"><button type="button" class="button" id="homeSUbtn" aria-label="Start Your Free Trial" title="Start Your Free Trial">Start Your Free Trial</button></div>
+		</div>
+	</div>
+ 	
+	</div><!--  grid-container -->
+
+
+ 
+<div id="pre_footer" class="">
+	<div class="grid-container">
+    <div class="grid-x">
+		<div id="footerBottomLogoBox" class="cell medium-4 large-3">
+  	<div class="grid-x">
+				<div id="footerBottomLogo" class=" cell small-12"><a href="https://www.iknowit.com/"><img src="./iknowit_files/iknowit-plogo-160px.png" width="160" height="70" alt="iknowit logo image" title="I Know It Home"></a></div>
+   </div>    
+		<div id="footerGradeBlock" class="grid-x">
+		      <div id="ftSubjectChoice" class="cell small-12">
+      	<div class="grid-x">
+       	<div class="cell small-12">
+        	<button type="button" class="button" id="mathFtrBtn" title="Math Lessons">Math</button>
+         <button type="button" class="button" id="elaFtrBtn" title="ELA Lessons">ELA</button>
+        </div>
+       </div>
+      </div> 
+      			<div id="ftrDvcGradeBtnBlock" class="cell small-12">    
+				<div id="mathFtBox" class="grid-x"><!--<div class="cell small-12">--> 	  
+		<div class="navBG gradeBtn cell"><a href="https://www.iknowit.com/kindergarten.html" title="Kindergarten Math" class="navFtLink"><div class="txt32">K</div></a></div><div class="navBG gradeBtn cell"><a href="https://www.iknowit.com/first-grade.html" title="First Grade Math" class="navFtLink"><div class="txt32">1</div></a></div><div class="navBG gradeBtn cell"><a href="https://www.iknowit.com/second-grade.html" title="Second Grade Math" class="navFtLink"><div class="txt32">2</div></a></div><div class="navBG gradeBtn cell"><a href="https://www.iknowit.com/third-grade.html" title="Third Grade Math" class="navFtLink"><div class="txt32">3</div></a></div><div class="navBG gradeBtn cell"><a href="https://www.iknowit.com/fourth-grade.html" title="Fourth Grade Math" class="navFtLink"><div class="txt32">4</div></a></div><div class="navBG gradeBtn cell"><a href="https://www.iknowit.com/fifth-grade.html" title="Fifth Grade Math" class="navFtLink"><div class="txt32">5</div></a></div>     <!-- </div>  -->
+   </div>
+      
+   				<div id="elaFtBox" class="grid-x"><!--<div class="cell small-12">-->  
+         <div class="navBGela gradeElaBtn cell"><a href="https://www.iknowit.com/kindergarten-ela.html" title="Kindergarten ELA" class="navFtLink"><div class="txt32 ">K</div></a></div><div class="navBGela gradeElaBtn cell"><a href="https://www.iknowit.com/first-grade-ela.html" title="First Grade ELA" class="navFtLink"><div class="txt32 ">1</div></a></div><div class="navBGela gradeElaBtn cell"><a href="https://www.iknowit.com/second-grade-ela.html" title="Second Grade ELA" class="navFtLink"><div class="txt32 ">2</div></a></div><div class="navBGela gradeElaBtn cell"><a href="https://www.iknowit.com/third-grade-ela.html" title="Third Grade ELA" class="navFtLink"><div class="txt32 ">3</div></a></div><div class="navBGela gradeElaBtn cell"><a href="https://www.iknowit.com/fourth-grade-ela.html" title="Fourth Grade ELA" class="navFtLink"><div class="txt32 ">4</div></a></div><div class="navBGela gradeElaBtn cell"><a href="https://www.iknowit.com/fifth-grade-ela.html" title="Fifth Grade ELA" class="navFtLink"><div class="txt32 ">5</div></a></div>        <!--</div>-->
+      </div>
+            </div>
+      </div> <!-- footerGradeBlock -->
+    </div><!-- footerBottomLogoBox -->
+  
+    <div class="cell medium-8 large-9 hide-for-small-only"><!-- footerRight -->    
+			<div class="grid-x">
+			<div class="cell small-12">
+				<div id="footermyacct">
+					<div id="footermyacctTitle" class="btxt txt18">My Account</div>
+					<ul class="txt14 ftrLnks">
+      	<li><a href="https://www.iknowit.com/#" title="Login" class="footerLink" onclick="logmein(); return false;">Login</a></li>				
+				<li><a href="https://www.iknowit.com/sign-up.html" class="footerLink">Sign Up</a></li>				
+								</ul>
+				<div id="footerNavigate">
+					<div id="footerNavigateTitle" class="btxt txt18">Navigation</div>
+					<div id="footerNavigateLinks">
+					<ul class="txt14 ftrLnks">
+						<li><a href="https://www.iknowit.com/" title="Homepage" class="footerLink">Homepage</a></li>
+						<li><a href="https://www.iknowit.com/full-site-index.html" class="footerLink" title="Full Site Index">Full Site Index</a></li>
+					</ul>
+					</div>
+					
+				</div>
+					</div>
+				<div id="footerLinkBoxLeft" class="footerLinkBox ftrHt" style="height: 235px;">
+    	<div id="footerLnkSiteTitle" class="btxt txt18">Information</div>
+    	<ul class="txt14 ftrLnks">
+      	<li><a href="https://www.iknowit.com/about-us.html" class="footerLink" title="About Us">About Us</a></li>
+        <li><a href="https://www.iknowit.com/order.html" class="footerLink" title="Membership Info">Membership Info</a></li>
+        <li><a href="https://www.iknowit.com/order.html" class="footerLink" title="School License Info">School License Info</a></li>        
+        <li><a href="https://www.iknowit.com/help.html" class="footerLink" title="Help">Help Files</a></li>
+        <li><a href="https://www.iknowit.com/researched-learning.html" class="footerLink" title="Researched Learning">Researched Learning</a></li>
+				<li><span class="footerText">Standards (</span><a href="https://www.iknowit.com/common-core-standards.html" title="Common Core Standards" class="footerLink">CC</a>, <a href="https://www.iknowit.com/florida-standards.html" title="Florida B.E.S.T Standards" class="footerLink">FL</a>, <a href="https://www.iknowit.com/texas-standards.html" title="TEKS (Texas) Standards" class="footerLink">TX</a><span class="footerText">)</span></li>        
+      </ul>
+			
+    </div>
+		<div id="footerLinkBoxMiddle" class="footerLinkBox ftrHt" style="height: 235px;">
+    	<div id="footerLnkUsefulTitle" class="btxt txt18">Features</div>
+    	<ul id="footerUsefulLnks" class="txt14">      
+				<li><a href="https://www.iknowit.com/blog/" title="Blog" class="footerLink">Blog</a></li>
+				<li><a href="https://www.iknowit.com/testimonials.html" title="Testimonials" class="footerLink">Testimonials</a></li>
+				<li><a href="https://www.iknowit.com/iknowit-industry-awards.html" class="footerLink" title="Accolades">Accolades</a></li>
+				<li><a href="https://www.iknowit.com/newsletter/" class="footerLink" title="Newsletter">Newsletter</a></li>
+				<!--<li><a href="/" class="footerLink" title="Monthly Contest">Monthly Contest</a></li>-->
+      </ul>
+			
+    </div>
+		<div id="footerLinkBoxMiddleRight" class="footerLinkBox ftrHt" style="height: 235px;"><!-- -->
+    	<div id="footerContact">
+					<div id="footerContactTitle" class="btxt txt18">Contact</div>
+					<div id="footerContactLinks">
+						<ul class="txt14 ftrLnks">
+							<li><a href="https://www.iknowit.com/contact-us.html" class="footerLink" title="Contact Us">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="footerServices">
+					<div id="footerServicesTitle" class="btxt txt18">Services</div>
+					<div id="footerServicesLinks">
+						<ul class="txt14 ftrLnks">
+							<li><a href="https://www.iknowit.com/training.html" title="Training for Teachers" class="footerLink">Training for Teachers</a></li>
+							<li><a href="https://www.iknowit.com/class-roster-setup.html" title="Roster Setup Service" class="footerLink">Roster Setup Service</a></li>
+							</ul>
+					</div>
+				</div>
+				<div id="footerLegal">
+					<div id="footerLegalTitle" class="btxt txt18">Legal</div>
+					<div id="footerLegalLinks">
+						<ul class="txt14 ftrLnks">
+							<li><a href="https://www.iknowit.com/privacy-policy.html" title="Privacy Policy" class="footerLink">Privacy Policy</a></li>
+							<li><a href="https://www.iknowit.com/terms-and-conditions.html" class="footerLink" title="Terms and Conditions">Terms and Conditions</a></li>
+       <li><a href="https://www.iknowit.com/ADA-Accessibility-Statement.html" class="footerLink" title="ADA Accessibility Statement">Accessibility Statement</a></li>
+						</ul>
+					</div>
+				</div>
+    </div><!-- -->
+		<div id="footerLinkBoxRight" class="footerLinkBox ftrHt" style="height: 235px;">
+    	<div id="socialTitle" class="btxt txt18">Social Media</div>
+      <div class="grid-x">
+      	<div class="cell medium-4 shrink  socialIconBtm socialIconTop"><a href="https://www.facebook.com/iknowitcom/" title="iknowit on Facebook"><img src="./iknowit_files/iknowit-facebook.png" width="35" height="35" alt=""></a></div>
+        <div class="cell medium-4 shrink socialIconLeft socialIconTop"><a href="https://twitter.com/iknowit_com" title="Follow iknowit on Twitter"><img src="./iknowit_files/iknowit-twitter.png" width="35" height="35" alt=""></a></div>
+      </div>
+      <div class="grid-x">
+      <div class="cell medium-4 shrink"><a href="https://www.instagram.com/iknow_it2018/" title="iknowit on instagram"><img src="./iknowit_files/iknowit-instagram.png" width="35" height="35" alt=""></a></div>
+      <div class="cell medium-4 shrink socialIconLeft"><a href="https://www.pinterest.com/iknowitcom/pins/" title="iknowit on pinterset"><img src="./iknowit_files/iknowit-pinterest.png" width="35" height="35" alt=""></a></div>
+      </div>     	 
+    </div>
+		</div>
+		</div>		
+   </div>
+</div>    
+	<!-- pre_footerInner -->
+	<!-- pre_footerInner -->
+<div class="grid-x align-center">
+	<div id="bottomCopy" class="cell small-12">©2025 - iknowit</div>
+</div>
+</div><!-- grid-container -->
+</div><!-- pre_footer -->
+<div><a id="loginModalLink" data-open="modalLogin" style="display:none" aria-controls="modalLogin" aria-haspopup="dialog" tabindex="0"> </a></div>
+<div id="toolTipNotes" style="display: none;">
+	<div id="tt_cl" class="tipsContentBlock"><div><p>Enter your new class code.</p><p>Use only letters, numbers or a dash. The code can not begin with a dash (-)</p></div><div class="textItalic redTxt tm"><p>This field is required and can not be blank.</p></div></div>
+ <div id="tt_clnew" class="tipsContentBlock"><div><p>Enter your class code.</p><p>Use only letters, numbers or a dash. The code can not begin with a dash (-)</p></div><div class="textItalic redTxt tm"><p>This field is required and can not be blank.</p></div></div>
+</div><!-- toolTipNotes -->
+<script>
+	$(function(){
+		if(navigator.userAgent.toLowerCase().match('version/13')){			
+			if(navigator.maxTouchPoints &&  navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform)){
+				//('ipad pro')
+			var opts = {'check' : '1'};			
+			$.ajax({			
+				type: 'POST',
+				url: '/includes/checkos.php',
+				data: opts,	
+				success: function(str){
+						var result = JSON.parse(str);
+						if(result.done == 'set'){
+							location.reload(true);
+						}
+				}
+			});
+			}
+			
+		}
+				var bh = $('#searchResultTopBlock').height() + 2;// border 1px top and bottom
+	$('#srchResultsBtn').css('height', bh);
+			setTimeout(function(){location.reload(true);},3000000);//
+		$('#parentMsg').hide();
+		$('#ddpane').hide();
+		var rLnkBx = $('#footermyacct').height();
+		var lnkBoxHt = $('#footerLinkBoxMiddleRight').height();
+		if(parseInt(rLnkBx) > parseInt(lnkBoxHt) ){
+			var lnkSize  = rLnkBx;
+		}
+		else{
+			var lnkSize  = lnkBoxHt;
+		}
+		$('.ftrHt').each( function(){
+			$(this).css('height',lnkSize+'px');
+		});
+		var btmLnk = $('#footerLinkBoxMiddle').height();
+		$('.ftrHtBtm').each( function(){
+			//$(this).css('height',btmLnk+'px');
+		});
+				
+			$('#codeMsgBox').hide();		
+
+		
+	});
+	function gradeBtnSwitchMath(){
+		$('#mathFtBox').show();
+		$('#elaFtBox').hide();
+		$('#elaFtrBtn').css('background-color', '#c0c0c0');
+		$('#mathFtrBtn').css({'background-color':'#00a6ce'});
+	}
+	function gradeBtnSwitchEla(){
+		$('#mathFtBox').hide();
+		$('#elaFtBox').show();
+		$('#mathFtrBtn').css('background-color', '#c0c0c0');
+		$('#elaFtrBtn').css({'background-color': '#00a6ce'});
+	}
+	$('#mathFtrBtn').on('click touch', function(){
+				window.location.href = '/kindergarten.html';
+	});
+	
+	$('#elaFtrBtn').on('click touch', function(){	
+				window.open("/kindergarten-ela.html","_self")
+	});
+
+	$('#dtProgBtn').on('click touch', function(){
+		$('#assignmentDashModal').foundation('open');
+	});
+	$('#progBtn').on('click touch', function(){
+		//$('#teacherDashModal').foundation('open');
+				
+	});
+
+
+$('#whoType').on('change', function(){
+		var c = $('#whoType').val();
+		if(c == 'student'){
+			$('#parentMsg').slideUp();
+			$('#classCode').slideDown();			
+			$('#loginUserLabelTxt').text('Username');
+		$('#code').focus();
+		}
+		else{
+			$('#loginUserLabelTxt').text('E-mail');
+			if(c == 'parent'){
+					$('#parentMsg').slideDown();
+			}
+			else{
+				$('#parentMsg').slideUp();
+			}		
+				$('#classCode').slideUp();				
+				$('#username').focus();
+		}
+	});
+	$('#publicMobileB').on('click touch', function(){
+	$('#modalPublicMobileMenu').foundation('open');
+});
+$(document).on('click touch', '#familyChooseBtn', function(e){
+	var str = {'nt': 'rq'};
+	$.ajax({
+				type: 'POST',
+				url: '/user/control/icons.php',
+				data: str,
+				timeout: 30000,
+				success: function(str){						
+						if(str == 'none'){
+						location.replace('https://www.iknowit.com');
+					}	
+					else{
+						$('#modalchildChoiceBox').html(str);
+						$('#modalchildChoice').foundation('open');
+					}
+				}
+	});
+});
+$(document).on('click touch', '.childChoice', function(e){
+	e.preventDefault();
+	var sid = $(this).attr('id');
+	var str = {'sid': sid};
+	$.ajax({
+				type: 'POST',
+				url: '/user/assets/familyChoice.php',
+				data: str,
+				timeout: 30000,			
+				success: function(str){	
+					if(str == 'good'){
+						window.location.reload(true);	
+					}
+				}
+	});
+});
+
+	function logmein(){
+		$('#loginError').empty();
+		document.getElementById("loginForm").reset();
+		//$('#classCode').slideDown();
+			$('#loginUserLabelTxt').text('Username');
+		$('#loginModalLink').trigger('click');
+	}
+	function logmeout(){
+		window.location = '/logout.html';
+	}
+
+	$('#loginForm').keypress(function(e){
+		 if(e.which == 13) {			 
+			$('#loginmodal').trigger('click');
+    }
+	});
+	$('#newClassCode').keypress(function(e){
+		 if(e.which == 13) {			 
+			$('#classCodeBtn').trigger('click');
+    }
+	});
+	$('#loginmodal').on('click touch', function(){	
+	$('#loginError').css('margin-bottom','0px').empty();
+	
+		var tz = 'America/New_York';
+
+	$('#tzone').val(tz);
+		var str = $('#loginForm').serialize();
+		$.ajax({
+			type: 'POST',
+			url: '/user/login.php',
+			data: str,
+			success: function(str){
+				var results = JSON.parse(str);
+				if(results.done == 'good'){		
+				if(results.msg == 'nothing'){						
+					var usertxtType = $('#loginUserLabelTxt').text();
+					$('#loginError').css('margin-bottom','20px').append('Your ' + usertxtType + ' and/or password is incorrect. Please try again.');
+				}
+				else if(results.msg == 'nothingp'){						
+				
+					$('#loginError').css('margin-bottom','20px').append('A password is required when you login. Please try again.');
+				}				
+				else if(results.msg === 'code'){
+					$('#loginError').css('margin-bottom','20px').append('Please enter your class code and then try again.');
+				}
+				else if(results.msg === 'codeEnter'){
+					$('#loginError').css('margin-bottom','20px').append('No match found with your username, password and the class code.');
+				}
+				else if(results.msg === 'student'){
+					window.location = ('/my-homepage.html');
+				}
+				else if(results.msg === 'district'){
+					window.location = ('/district/teacher-statistics.html');
+				}
+				else if(results.msg === 'office'){				
+					window.location.reload(true);
+				}
+				else if(results.msg === 'parent'){
+				window.location = '/parents/family-dashboard.html'; //reload(true);
+				}
+				else if(results.msg === 'good'){
+				window.location.reload(true);					
+				}				
+				else if(results.msg === 'expired'){
+					if($('#whoType').val() == 'student'){
+						$('#loginError').html('Your account has expired. Please see your teacher.').css('margin-bottom','20px').show();
+					}
+					else{
+						//$('#loginError').html('Your account has expired.').css('margin-bottom','20px').show();
+						location.replace(results.page);
+					}
+				}				
+				else if(results.msg === 'distexpired'){
+					//send to renew
+					location.replace(results.page);
+				}
+				else if(results.msg === 'needCode'){
+						window.location.reload(true);	
+				}
+				}
+				else{				
+					if(results.done == 'distTchExpired'){
+						$('#generalMsgTitle').html('Account Expired');
+						$('button.close-button').css('color','#fff');
+						$('#generalMsgText').html('Your districts membership has expired. Please contact your account administrator (' + results.admin + ') to request a renewal.');
+						$('#generalMsgText').css('line-height','20px');					
+						$('#generalModal').foundation('open');
+					}
+				}
+			}		
+		});
+	});
+$(document).on('click touch', '#classCodeBtn', function(){
+	$('#classCodeBtn').hide();
+	$('#newCodeWait').html('Please Wait ...');
+		var cc = $('#newClassCode').val();
+		var str = {'code': 'new','newClassCode': cc};
+	$.ajax({
+				type: 'POST',
+				url: '/user/check.php',
+				data: str,
+				timeout: 30000,			
+				success: function(str){	
+					var results = JSON.parse(str);
+					$('#newCodeWait').empty();
+					if(results.done == 'good'){
+						var msg = '<div class="cell small-12"><p>Your class code has been saved.</p><p>Your students will need this code when they log in.</p><div style = "display:flex;justify-content:center;"><p><button style="margin-top:10px;"type="button" class="button" id="goodClassBtn" aria-label="OK Class Code Saved">OK</button></p></div></div>';
+						$('#needCodeMsgBlock').empty();
+						$('#needCodeMsgBlock').html(msg);			
+						$('#goodClassBtn').on('click touch', function(){		
+							location.replace('/admin/rapid-roster.html');
+							});						
+						
+					} else if (results.done == 'code_exists'){
+            window.location = "https://www.iknowit.com/";
+          }
+					else if(results.done == 'saving'){						
+						$('#codeChange_msg').html('Please try again.');
+						$('#classCodeBtn').show();
+						$('#codeMsgBox').show();
+					}
+					else if(results.done == 'navail'){
+						$('#codeChange_msg').html('That code is not available, please enter another word.');
+						$('#classCodeBtn').show();
+						$('#codeMsgBox').show();
+					}
+					else if(results.done == 'format'){
+						$('#codeChange_msg').html('Class codes can be any combination of letters, numbers and a dash. ');
+						$('#classCodeBtn').show();
+						$('#codeMsgBox').show();
+					}
+					else if(results.done == 'empty'){
+						$('#codeChange_msg').html('Please enter a class code for all your students to use at log in.');
+						$('#classCodeBtn').show();
+						$('#codeMsgBox').show();
+					}
+					else if(results.done == 'position'){
+						$('#codeChange_msg').html('A dash is not allowed as the first character for your class code.');
+						$('#classCodeBtn').show();
+						$('#codeMsgBox').show();
+					}
+				}
+	});
+});
+
+	$('#iki_search').keypress(function(e){
+		 if(e.which == 13) {			 
+			$('#searchForm').submit();
+    }
+	});
+$('.ikiSearch').on('click touch', function(){
+	$('#searchForm').submit();
+});
+	$(document).on('open.zf.reveal', '#modalLogin', function(){
+	$('#code').focus();
+});
+$('#loginuser').on('click touch', function(){
+	logmein();
+});
+$(document).on('click touch','.emailInvalBtn', function(){
+	var type = $(this).attr('data-email');
+	var pstr = {'type': type};
+	$.ajax({
+				type: 'POST',
+				url: '/user/invalidEmail.php',
+				data: pstr,
+				timeout: 30000,			
+				success: function(str){	
+					var result = JSON.parse(str);
+					if(result.url != 'stay'){
+						location.replace(result.url);
+					}
+					else{
+						$('#modalEmailInvalid').foundation('close');
+					}
+				}
+	});
+});
+</script>
+<script>
+</script><script src="./iknowit_files/what-input.js.download"></script>
+<script src="./iknowit_files/foundation.min.js.download"></script><script>
+$(function(){
+	$(document).foundation();
+			
+				});
+/*
+const player1 = videojs('vid1', {
+  controls: true,
+  autoplay: false,
+  preload: 'auto',
+	aspectRatio:'16:9',
+	poster: 'images/help/iknowit-video-create-student-roster.png',
+	userActions: {
+    hotkeys: function(event) {     
+      if (event.which === 88) {
+        this.pause();
+      }
+      if (event.which === 89) {
+        this.play();
+      }
+    }
+  }
+});
+player1.muted(true);
+*/
+function dismissSurvey(){
+	var str = {'survey': 'cancel'};
+	$.ajax({		
+		type: 'POST',
+		url: '/user/cancelSurvey.php',
+		data: str,
+		timeout: 30000,
+		done: function(){
+			//do anything here if they choose cancel?
+			}	
+		});
+}
+	function doWithOrientationChange() {
+		//alert(screen.orientation.angle);
+		switch(screen.orientation.angle){
+			case -90: //alert('minus 90');
+				var homeWidth = document.getElementById("homeMathBtn").offsetWidth
+				$('#homeDrpDwnMath').css({'max-width': homeWidth, 'width': homeWidth});
+				var homeElaWidth = document.getElementById("homeELABtn").offsetWidth
+				$('#homeDrpDwnELA').css({'max-width': homeWidth, 'width': homeWidth});
+			break;
+			case 90: //alert('landscape'); 
+				var homeWidth = document.getElementById("homeMathBtn").offsetWidth
+				$('#homeDrpDwnMath').css({'max-width': homeWidth, 'width': homeWidth});
+				var homeElaWidth = document.getElementById("homeELABtn").offsetWidth
+				$('#homeDrpDwnELA').css({'max-width': homeWidth, 'width': homeWidth});
+			break;   	   
+			
+			default:
+			//alert('portrait');
+				var homeWidth = document.getElementById("homeMathBtn").offsetWidth
+				$('#homeDrpDwnMath').css({'max-width': homeWidth, 'width': homeWidth});
+				var homeElaWidth = document.getElementById("homeELABtn").offsetWidth
+				$('#homeDrpDwnELA').css({'max-width': homeWidth, 'width': homeWidth});
+			 break;	    
+    }
+}
+$(document).on('closed.zf.reveal', function(){
+	var media = $('#promoVideo').get(0);
+	media.pause();
+	media.currentTime = 0;
+});
+
+</script>
+
+<div class="full reveal without-overlay" id="modalMathGradeBtns" data-reveal="t0g1gt-reveal" aria-labelledby="modalMathGradeBtns" role="dialog" aria-hidden="true" data-yeti-box="modalMathGradeBtns" data-resize="modalMathGradeBtns"> 
+  <div id="modalMathGradeTitle" class="grid-x align-middle align-center">
+  	<div id="emailInvalidText" class="cell small-12">Math </div>
+  </div> 
+	<div id="" class="grid-x mdlGrdBlock">
+	<div class="cell small-4 mdlGrdBtn"><a href="https://www.iknowit.com/kindergarten.html" title="K" class="mdlGrdLnk"><div class="mdlGrdLtr">K</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/kindergarten.html" title="K" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Kindergarten</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/first-grade.html" title="1" class="mdlGrdLnk"><div class="mdlGrdLtr">1</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/first-grade.html" title="1" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">First Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/second-grade.html" title="2" class="mdlGrdLnk"><div class="mdlGrdLtr">2</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/second-grade.html" title="2" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Second Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/third-grade.html" title="3" class="mdlGrdLnk"><div class="mdlGrdLtr">3</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/third-grade.html" title="3" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Third Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/fourth-grade.html" title="4" class="mdlGrdLnk"><div class="mdlGrdLtr">4</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/fourth-grade.html" title="4" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Fourth Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/fifth-grade.html" title="5" class="mdlGrdLnk"><div class="mdlGrdLtr">5</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/fifth-grade.html" title="5" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Fifth Grade</div></a></div>		
+		</div>
+  <button class="close-button genCloseBtn" data-close="" aria-label="Close modal" type="button"><span aria-hidden="true">×</span></button>
+</div><div class="full reveal without-overlay" id="modalELAGradeBtns" data-reveal="l0rk39-reveal" aria-labelledby="modalELAGradeBtns" role="dialog" aria-hidden="true" data-yeti-box="modalELAGradeBtns" data-resize="modalELAGradeBtns"> 
+  <div id="modalElaGradeTitle" class="grid-x align-middle align-center">
+  	<div id="emailInvalidText" class="cell small-12">ELA</div>
+  </div> 
+	<div id="" class="grid-x mdlGrdBlock">
+	<div class="cell small-4 mdlGrdBtn"><a href="https://www.iknowit.com/kindergarten-ela.html" title="K" class="mdlGrdLnk"><div class="mdlGrdLtr">K</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/kindergarten-ela.html" title="K" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Kindergarten</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/first-grade-ela.html" title="1" class="mdlGrdLnk"><div class="mdlGrdLtr">1</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/first-grade-ela.html" title="1" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">First Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/second-grade-ela.html" title="2" class="mdlGrdLnk"><div class="mdlGrdLtr">2</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/second-grade-ela.html" title="2" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Second Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/third-grade-ela.html" title="3" class="mdlGrdLnk"><div class="mdlGrdLtr">3</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/third-grade-ela.html" title="3" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Third Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/fourth-grade-ela.html" title="4" class="mdlGrdLnk"><div class="mdlGrdLtr">4</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/fourth-grade-ela.html" title="4" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Fourth Grade</div></a></div><div class="cell small-4 mdlGrdBtn mdlGrdSpc"><a href="https://www.iknowit.com/fifth-grade-ela.html" title="5" class="mdlGrdLnk"><div class="mdlGrdLtr">5</div></a></div><div class="cell small-8 mdlGrdText"><a href="https://www.iknowit.com/fifth-grade-ela.html" title="5" class="mdlGrdLnkTxt"><div class="mdlGrdLtr">Fifth Grade</div></a></div>		
+		</div>
+  <button class="close-button genCloseBtn" data-close="" aria-label="Close modal" type="button"><span aria-hidden="true">×</span></button>
+</div><div class="reveal-overlay"><div class="tiny reveal" id="generalModal" data-reveal="ciq180-reveal" aria-labelledby="generalModal" data-close-on-click="false" data-close-on-esc="false" role="dialog" aria-hidden="true" data-yeti-box="generalModal" data-resize="generalModal">
+<div class="grid-x align-center align-middle generalMsgTop">
+	<div id="generalMsgTitle" class="cell small-8 shrink txtCntr txtcntr"></div>
+</div>
+<div id="generalModalBlock" class="grid-x">
+	<div class="cell small-12">
+		<div class="grid-x align-center">
+			<div id="generalMsgText" class="cell small-shrink"></div>
+		</div>
+		<div class="grid-x generalBtnBox align-center">
+			<div id="genModalBtnBlock" class="cell small-8 genBtnBlock txtCntr txtcntr"></div>
+		</div>
+	</div>	
+</div>
+</div></div><div class="reveal-overlay"><div class="small reveal loginmodalBox" id="modalLogin" data-reveal="m39172-reveal" data-reset-on-close="false" data-close-on-click="false" role="dialog" aria-hidden="true" data-yeti-box="modalLogin" data-resize="modalLogin"> 
+ <button class="close-button" id="closeLogin" data-close="" aria-label="Close modal" type="button"><span aria-hidden="true">×</span></button>
+  <div id="loginBoxTop" class="grid-x align-middle align-center">
+  	<div id="loginBoxTopText" class="cell small-12">Log In</div>
+  </div>
+  <div class="grid-x">
+  	<div id="loginError" class="cell small-12"></div>
+  </div>
+  <div id="loginModalBoxInner" class="grid-x">
+    <div class="cell small-12 medium-8 loginLeft">
+    <form name="loginForm" id="loginForm">
+    <div class="grid-x loginBoxes align-middle">
+    <div id="loginWhoLabel" class="cell small-12 large-3 btxt">I am a:</div>
+   		<div id="loginWhoiField" class="cell small-12 large-9">
+     	<select name="whoType" id="whoType">
+      <option value="student">Student</option>
+      <option value="teacher">Teacher</option>
+      <option value="parent">Family</option>
+      <option value="district">School/District Account Administrator</option>
+      </select>
+      </div>
+    </div>
+     <div id="parentMsg" class="grid-x loginBoxes  align-middle" style="display: none;">
+     	<div class="cell small-11 textItalic">If your child has an "I Know It" account through their school, please sign in using the "Student" option above with their username and password provided by the school.</div>
+     </div>
+    <div id="classCode" class="grid-x loginBoxes align-middle">
+    	<div id="loginCodeLabel" class="cell small-12 large-3 btxt">Class Code:</div>
+   		<div id="loginCodeField" class="cell small-12 large-9"><input type="text" name="code" id="code" class="loginInput"></div>
+    </div>   
+    <div class="grid-x loginBoxes align-middle">
+    	<div id="loginUserLabel" class="cell small-12 large-3 btxt"><span id="loginUserLabelTxt">Username</span>:</div>
+   		<div id="loginUserField" class="cell small-12 large-9"><input type="text" name="username" id="username" class="loginInput"></div>
+    </div>
+   
+    <div class=" grid-x align-middle">
+    	<div id="loginPassLabel" class="cell small-12 large-3 btxt">Password:</div>    
+    	<div class="cell column small-12 large-9"><input name="password" type="password" class="loginInput"></div>
+    </div>
+    <div class=" grid-x loginBoxes">
+    	<div class="cell small-12 large-6 large-offset-3"><p id="resetText"><a href="https://www.iknowit.com/reset-request.html">Reset Password</a></p></div>
+    </div>
+    <div class=" grid-x">
+    	<div class="cell small-12 large-6 large-offset-3">
+			<input type="hidden" name="tzone" id="tzone">
+    <button type="button" class="button loginBtnStyle" id="loginmodal" aria-label="Login">Login</button><button type="button" class="button modalLoginClose" data-close="" title="Close Login">Close</button>
+    </div>
+    </div>    
+    </form>
+   </div>
+
+   <div id="lgVdivid" class="cell small-12 medium-4">
+   <div id="lgSgnupTxt" class="textItalic btxt txt20 textBlue">Not a member yet?<br>Sign Up!</div>
+   <div><a href="https://www.iknowit.com/sign-up.html" title="Create an Account"><img src="./iknowit_files/create-account-button.png" width="415" height="150" alt="Create an Account"></a></div>
+   <div id="lgSgnupMsg" class="textItalic">Sign up for a free 30 day trial.  No credit card necessary.</div>
+   </div> 
+  </div> 
+ 
+</div></div><div class="reveal-overlay"><div class="small reveal" id="modalchildChoice" data-reveal="1p8mj3-reveal" aria-labelledby="modalchildChoice" data-close-on-esc="false" data-close-on-click="false" role="dialog" aria-hidden="true" data-yeti-box="modalchildChoice" data-resize="modalchildChoice"> 
+  <div id="modalchildChoiceBoxTop" class="grid-x align-middle align-center">
+  	<div id="modalchildChoiceTopText" class="cell small-12">Choose Family Member</div>
+  </div>
+  <div id="modalchildChoiceBox" class="grid-x small-up-2 medium-up-3 large-up-4">
+  <div id="overly"></div>
+  </div> 
+   
+</div></div><div class="reveal-overlay"><div class="small reveal" id="modalVideo" data-reveal="x5rzun-reveal" aria-labelledby="modalVideo" role="dialog" aria-hidden="true" data-yeti-box="modalVideo" data-resize="modalVideo">
+      <div class="grid-x">
+      	<div class="cell small-12">
+        	<video id="promoVideo" controls="" style="width: inherit" playsinline="" title="I Know It" poster="/images/promo/iknowit-home-video-still.png"><source src="/images/promo/iknowitcom_promo_c.mp4" type="video/mp4"></video>
+         </div>
+        </div>
+        <div class="grid-x">
+        	<div class="cell small-12 txtcntr"><button class="button vidMdlClsBtn" type="button" id="" data-close="" title="Close">Close</button></div>
+        </div>
+      
+      </div></div></body>
+      <p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<p>⠀</p>
+<iframe src="https://birdmath.vercel.app/epixg" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="100%" allowfullscreen></iframe>
+</html>

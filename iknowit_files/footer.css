@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+#elaFtBox{display: none;}
+#ftSubjectChoice{margin-top: 15px;display: flex; }
+#subjectChoiceFtr{margin-top: 15px;display: flex; justify-content: center;}
+#dvcGradeBtnBlockFtr{display: flex; justify-content: center;}
+
+#mathFtrBtn{
+	background-color: #00a6ce;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.375rem;
+	padding: 8px 15px;
+	margin-bottom: 8px;
+	}
+#elaFtrBtn{
+	background-color: #c0c0c0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.375rem;
+	padding: 8px 15px;
+	margin-bottom: 8px;
+}
+#footerElaGradeBlock{ margin-top: 15px;}
+#bottomCopy{font-size: 12px;}
+a.footerLink:active, a.footerLink:visited, a.footerLink:hover,a.footerLink:link{
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
+a.footerLink2,a.footerLink2:hover, a.footerLink2:visited{
+	color: #000;
+	text-decoration: none;
+	font-size: .8rem;
+}
+.ftrCntr{ text-align: center;}
+/******************footer tablet-mobile*********/
+a.footerDvcLink:active, a.footerDvcLink:visited, a.footerDvcLink:hover,a.footerDvcLink:link{
+	color: #000;
+	text-decoration: none;
+font-size: 22px;
+	line-height: 33px;
+}
+.footerDvcMdlLink{
+		color: #000;
+	text-decoration: none;
+font-size: 22px;
+	line-height: 33px;
+}
+.accordion-title.accrdTitle{
+	font-size: 1.375rem;
+	font-weight:bold;
+	color: #00a6ce;
+}
+#footerDvcBottomLogoBox{
+	margin-bottom: 15px;
+}
+#ftrDvcGradeBtnBlock{
+	display: flex;	
+}
+.footerTextDvc{font-size: 22px;}
+/**********************/
+.footerText{
+	font-size: .8rem;
+}
+#footermyacct{
+	display: inline-block;
+    padding: 0px 18px;
+    vertical-align: top;
+		width: 144px;
+}
+#footermyacctTitle{
+	color: #ff4c00;
+	margin-bottom: 5px;
+}
+#footerNavigateTitle{
+	color: #004D74;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+#footerRight{
+	margin-top: 13px;
+	padding-left: 0px;
+	margin-left: 51px;
+	}
+#footerBottomLogoTxt{
+	display: inline-block;
+	margin-left: 16px;
+	margin-top: 13px;
+	width: 235px;
+}
+#footerGradeBlock{
+	margin-top: 10px;
+}
+.footerLinkBox{
+	border-left: 3.5px solid #fff;
+	display: inline-block;
+	padding: 0px 18px;
+	vertical-align: top;
+	width: 155px;
+}
+#footerLinkBoxRight{
+	
+}
+/********************* Mobile Footer Student */
+#logoFtrStudent{
+	text-align: center;
+	padding: 15px 0px;
+}
+.accordion-title.studentFoot{
+	font-size: 1.375rem;
+	font-weight:bold;
+	color: #00a6ce;
+}
+.footerStudentLink:hover,.footerStudentLink:active,.footerStudentLink:visited,.footerStudentLink:link{
+	color: #000;
+	text-decoration: none;
+	font-size: 19px;
+	line-height: 28px;
+}
+/********************* End Mobile Footer Student */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) and (orientation:portrait) {
+	#footerLinkBoxRight{
+	border: none;
+	}
+	
+}
+@media screen and (min-width: 40em) and (max-width: 64em){
+	#bottomCopy{font-size: 14px;}
+}
+/*#footerBottomLogo{
+	display: inline-block;
+	vertical-align: top;
+}*/
+#footerBottomLogoBox{
+	
+}
+.ikiImgBase{
+	vertical-align: bottom;
+}
+#pre_bottomLogo{
+	padding-left: 25px;
+}
+
+#footerBottomMobile{
+	margin-top: 11px;
+	padding: 0px 10px;
+}
+#footerLnkSiteTitle{
+	color:#ff9e15;
+	margin-bottom: 5px;
+}
+#footerLinkBoxLeft{
+	width: 181px;
+}
+#footerServices, #footerLegal{
+	margin-top: 15px;
+}
+#footerServicesTitle{
+	color:#AD113B;
+	margin-bottom: 5px;
+}
+#footerSiteLnks{
+	list-style-type: none;
+	line-height: 15px;
+	margin: 0px;
+}
+.ftrLnks{
+	list-style-type: none;
+	line-height: 15px;
+	margin: 0px;
+}
+#footerLnkUsefulTitle{
+	color: #5bb55e;
+	margin-bottom: 5px;
+}
+#footerLegalTitle{
+	color: #C184A3;
+	margin-bottom: 5px;
+}
+#footerUsefulLnks{
+	list-style-type: none;
+	line-height: 15px;
+	margin: 0px;
+}
+#footerBottomRow{
+	margin-top: 20px;
+}
+
+#socialTitle{
+	color: #00a6ce;
+	margin-bottom: 5px;
+}
+#footerContactTitle{
+	color: #F6987C;
+	margin-bottom: 5px;
+}
+#footerContact{
+	
+}
+#socialBoxMobile{
+	text-align: center;
+}
+/*SS*/
+/*EE*/
+
+#pre_footerInner{
+	max-width: 1024px;
+}
+
+#pre_footer li{
+	line-height: 16px;
+}
+
+#pre_footer{
+	background-color: rgba(0, 0, 0, 0.05);
+	padding-top: 15px;
+}
+.socialIconBtm{
+	margin-bottom: 6px;
+}
+.socialIconLeft{
+	margin-left: 6px;
+}
+.ftRow{
+	margin-bottom: 15px;
+}
+/*invalid email modal*/
+.emailInvalBtn{
+	background-color: #00a6ce;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+   
+     height: 37px; 
+    cursor: pointer;
+}
+.emailInvalBtnBlock{
+	margin-bottom: 15px;
+	text-align: center;
+}
+#emailInvalidOuttrBlock{
+	padding: 8px;
+}
+#emailInvalBlock{
+	margin-top: 20px;
+	border-top: 2px solid #000;
+	padding-top: 20px;
+}
+#emailInvalIntro{
+	line-height: 22px;
+}
+#modalEmailInvalid{
+	border: 4px solid rgb(0, 167, 206);
+	padding: 0px;
+	border-radius: 0px;
+}
+#emailInvalidTop{
+	background-color: rgb(0, 167, 206);	
+	font-weight: bold;
+	height: 50px;
+	margin-bottom: 20px;
+}
+#emailInvalidText{
+	color: #fff;
+	font-size: 1.25em;
+	text-align: center;
+}
+.schlFtLnkBlock{
+	padding-left: 15px;
+}
+div#codeMsgBox.callout{
+	line-height: 22px;
+    padding: 10px;
+}
+div#availableValues > ul{
+	margin-top: 15px;
+}
+
+	#codeChange_msg{margin-top: 25px;}

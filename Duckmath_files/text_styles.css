@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+.main_title_text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: var(--input-border);
+  font-family: "League Spartan", sans-serif;
+  transform: (-50%);
+  line-height: 120%;
+}
+
+.title_text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: var(--input-border);
+  font-family: "League Spartan", sans-serif;
+  line-height: 300%;
+
+  /* Flex for stacking */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This will center-align your iframe and button horizontally */
+  justify-content: center; /* Optional: This will center-align items vertically */
+}
+
+.title_text_main {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10rem;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff0000;
+  font-family: "League Spartan", sans-serif;
+  transform: translateX(-50%);
+  line-height: 120%;
+  width: 100%;
+  cursor: default;
+}
+
+.title_text_description {
+  color: #dddddd;
+  position: relative;
+  font-size: 25px;
+  line-height: 130%;
+  font-family: "Arial", sans-serif;
+}
+
+.recommended {
+  position: absolute;
+  top: 380%;
+  left: 50%;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  font-family: "Arial", sans-serif;
+  transform: translateX(-50%);
+  line-height: 120%;
+}
+
+.middle_text_title {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 27.5%;
+  height: 100%;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.image_description1stgame {
+  text-decoration: none;
+  position: absolute;
+  display: block;
+  color: #ff0000;
+  font-family: "Anton", sans-serif;
+  border-radius: 10px;
+  background: rgba(255, 255, 255);
+  top: 17%;
+  left: 27%;
+}
+
+.aboutandchangelog_title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "League Spartan", sans-serif;
+  transform: translateX(-50%);
+  line-height: 120%;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+.about_text {
+  font-size: 20px;
+  justify-content: center;
+  color: #dddddd;
+  line-height: 200%;
+  font-family: "Arial", sans-serif;
+  margin-inline-start: 0;
+}
+
+.bottom_text {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  vertical-align: bottom;
+}
+
+.controls {
+  font-size: 10px;
+  justify-content: center;
+  color: #dddddd;
+  line-height: 120%;
+  font-family: "Arial", sans-serif;
+  margin-inline-start: 0;
+}
